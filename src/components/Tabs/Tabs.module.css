@@ -1,0 +1,31 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  width: 80%;
+}
+
+.container > li {
+  padding: 10px;
+}
+
+.tabButton {
+  border-radius: 8px;
+}
+
+.addButton {
+  background-color: grey;
+  border-radius: 4px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.addButto:hover {
+  cursor: pointer;
+}
